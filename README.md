@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## **Thank You Message Automation**
+This project is a simple web application built with Next.js and Framer Motion libraries that takes user input for their name and generates a personalized thank you message.
 
-## Getting Started
+## **Installation**
+To run this application on your local machine, you will need to have Node.js and npm (or yarn) installed.
 
-First, run the development server:
+Clone this repository using git clone https://github.com/your-username/thank-you-message-automation.git
+Navigate into the project directory using cd thank-you-message-automation
+Install the required dependencies using npm install or yarn install
+Start the development server using npm run dev or yarn dev
+The application should now be accessible at http://localhost:3000
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## **Usage**
+Open the web application on your browser by navigating to http://localhost:3000
+Enter your name in the input field provided
+Click on the "Submit" button
+You will be redirected to a new page with a personalized thank you message including your name.
+Customization
+You can easily customize the thank you message by modifying the message variable located in pages/TakeName.js file.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can also customize the animations used in the application by modifying the animate and transition properties of the components in the pages/index.js file.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## **Credits**
+This project was built using the following libraries:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next.js
+Framer Motion
