@@ -1,0 +1,39 @@
+body {
+  background-color: #654e92;
+}
+
+.thankyou {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Quicksand";
+  display: block;
+  font-size: 40px;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner_home {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text {
+    height: 25px;
+    border: 2px solid #eee;
+}
+
+.input_button {
+    width: 60px;
+    height: 25px;
+}
